@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "AFKcQDvG8UhLQwB05V8qnSVqb9CoKPBuestPXqcUN6b1zEhoa2ohBDxeQJxzgSETWoQRquuJ0zqT5Kpt9zcafQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Bubu\\source\\repos\\Hough-Transform\\Hough-Transform\\Hough-Transform.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bubu\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Bubu\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Bubu\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
