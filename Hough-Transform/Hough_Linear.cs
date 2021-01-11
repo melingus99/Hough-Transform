@@ -186,20 +186,23 @@ namespace Hough_Transform
             lines.Sort(delegate (HoughLine x, HoughLine y) {
                 return y.compareTo(x);
             });
-            lines.RemoveRange(n, lines.Count - n);
+            if(lines.Count - n > 0)
+                lines.RemoveRange(n, lines.Count - n);
             return lines;
         }
 
         public void draw()
         {
 
-            List<HoughLine> lines = this.getLines(6, 10);  //get the top scoring 4 lines
-            Bitmap bm = new Bitmap("../../../Images/vase.png");
+            List<HoughLine> lines = this.getLines(8, 90);  
+            Bitmap bm = new Bitmap(img.Width, img.Height);
+            Graphics gr = Graphics.FromImage(bm);
+            gr.DrawImage(img, 0, 0);
             if (lines != null)
             {
-                using (Graphics gr = Graphics.FromImage(bm))
+                using (gr)
                 {
-                    using (Pen thick_pen = new Pen(Color.Red, 1))
+                    using (Pen thick_pen = new Pen(Color.FromArgb(100, 255, 0, 0), 1))
                     {
                         for (int j = 0; j < lines.Count; j++)
                         {

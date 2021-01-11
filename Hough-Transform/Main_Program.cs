@@ -6,7 +6,7 @@ namespace Hough_Transform
     {
         static void Main(string[] args)
         {
-            Bitmap image = new Bitmap("../../../Images/vase.png");
+            Bitmap image = new Bitmap("../../../Images/image3.png");
             while (true)
             {
                 Console.WriteLine("Pick your poison: \n" +
