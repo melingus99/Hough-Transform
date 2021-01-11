@@ -98,7 +98,7 @@ namespace Hough_Transform
                 for (int y = 0; y < image.Height; y++)
                 {
                     // Find non-black pixels 
-                    if (image.GetPixel(x,y)!= Color.Black)
+                    if (image.GetPixel(x, y).ToArgb() != Color.Black.ToArgb())
                     {
                         addPoint(x, y);
                     }
@@ -167,7 +167,7 @@ namespace Hough_Transform
                                 int dr = r + dy;
                                 if (dt < 0) dt = dt + maxTheta;
                                 else if (dt >= maxTheta) dt = dt - maxTheta;
-                                if (houghArray[dt,dr] > peak)
+                                if (houghArray[dt, dr] > peak)
                                 {
                                     // found a bigger point nearby, skip 
                                     goto end_of_loop;
@@ -184,29 +184,22 @@ namespace Hough_Transform
                 end_of_loop: { }
             }
             lines.Sort(delegate (HoughLine x, HoughLine y) {
-                return x.compareTo(y);
+                return y.compareTo(x);
             });
             lines.RemoveRange(n, lines.Count - n);
             return lines;
-        }
-        public List<HoughLine> getLines(int n)
-        {
-            return (getLines(n, 0));
         }
 
         public void draw()
         {
 
-            List<HoughLine> lines = this.getLines(4);  //get the top scoring 4 lines
-            Bitmap bm = new Bitmap(img.Width, img.Height);
+            List<HoughLine> lines = this.getLines(6, 10);  //get the top scoring 4 lines
+            Bitmap bm = new Bitmap("../../../Images/vase.png");
             if (lines != null)
             {
                 using (Graphics gr = Graphics.FromImage(bm))
                 {
-
-                    gr.SmoothingMode = SmoothingMode.AntiAlias;
-
-                    using (Pen thick_pen = new Pen(Color.Black, 5))
+                    using (Pen thick_pen = new Pen(Color.Red, 1))
                     {
                         for (int j = 0; j < lines.Count; j++)
                         {
@@ -216,11 +209,8 @@ namespace Hough_Transform
 
                     }
                 }
-            bm.Save("C:\\Users\\Bubu\\source\\repos\\Hough-Transform\\Hough-Transform\\Images\\HoughLinear.png");
-            }
-            
+            bm.Save("../../../Images/output.png");
+            }            
         }
-
-
     }
 }

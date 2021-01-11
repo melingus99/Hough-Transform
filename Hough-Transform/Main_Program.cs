@@ -6,8 +6,7 @@ namespace Hough_Transform
     {
         static void Main(string[] args)
         {
-            Processor processor = new Processor("C:\\Users\\Bubu\\source\\repos\\Hough-Transform\\Hough-Transform\\Images\\vase.png");
-            Bitmap image = processor.rgb2gray();
+            Bitmap image = new Bitmap("../../../Images/vase.png");
             while (true)
             {
                 Console.WriteLine("Pick your poison: \n" +
