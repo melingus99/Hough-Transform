@@ -28,7 +28,6 @@ D:\facultate\dpp\Hough-Transform\Hough-Transform\bin\Debug\netcoreapp3.1\System.
 D:\facultate\dpp\Hough-Transform\Hough-Transform\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
 D:\facultate\dpp\Hough-Transform\Hough-Transform\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 D:\facultate\dpp\Hough-Transform\Hough-Transform\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\facultate\dpp\Hough-Transform\Hough-Transform\obj\Debug\netcoreapp3.1\Hough-Transform.csprojAssemblyReference.cache
 D:\facultate\dpp\Hough-Transform\Hough-Transform\obj\Debug\netcoreapp3.1\Hough-Transform.AssemblyInfoInputs.cache
 D:\facultate\dpp\Hough-Transform\Hough-Transform\obj\Debug\netcoreapp3.1\Hough-Transform.AssemblyInfo.cs
 D:\facultate\dpp\Hough-Transform\Hough-Transform\obj\Debug\netcoreapp3.1\Hough-Transform.csproj.CoreCompileInputs.cache
@@ -36,3 +35,6 @@ D:\facultate\dpp\Hough-Transform\Hough-Transform\obj\Debug\netcoreapp3.1\Hough-T
 D:\facultate\dpp\Hough-Transform\Hough-Transform\obj\Debug\netcoreapp3.1\Hough-Transform.dll
 D:\facultate\dpp\Hough-Transform\Hough-Transform\obj\Debug\netcoreapp3.1\Hough-Transform.pdb
 D:\facultate\dpp\Hough-Transform\Hough-Transform\obj\Debug\netcoreapp3.1\Hough-Transform.genruntimeconfig.cache
+D:\facultate\dpp\Hough-Transform\Hough-Transform\bin\Debug\netcoreapp3.1\MPI.dll
+D:\facultate\dpp\Hough-Transform\Hough-Transform\bin\Debug\netcoreapp3.1\MPIUtils.dll
+D:\facultate\dpp\Hough-Transform\Hough-Transform\obj\Debug\netcoreapp3.1\Hough-Transform.csprojAssemblyReference.cache

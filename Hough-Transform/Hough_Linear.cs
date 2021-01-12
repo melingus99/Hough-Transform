@@ -141,7 +141,7 @@ namespace Hough_Transform
         {
 
             // Initialise the vector of lines that we'll return 
-            List<HoughLine> lines = new List<HoughLine>(20);
+            List<HoughLine> lines = new List<HoughLine>();
 
             // Only proceed if the hough array is not empty 
             if (numPoints == 0) return lines;
