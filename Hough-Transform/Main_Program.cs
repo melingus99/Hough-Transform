@@ -6,11 +6,11 @@ namespace Hough_Transform
     {
         static void Main(string[] args)
         {
-            Bitmap image = new Bitmap("../../../Images/image1.png");
-            
+            Bitmap image = new Bitmap("../../../Images/image4.png");
+
             if (args.Length != 0)
             {
-                Hough_Process.start(image, args);
+                //Hough_Process.start(image, args);
             }
             else
             {
@@ -29,12 +29,19 @@ namespace Hough_Transform
 
                     else if (option == "1")
                     {
+                        var watch = System.Diagnostics.Stopwatch.StartNew();
                         Hough_Linear h = new Hough_Linear(image);
                         h.draw();
+                        watch.Stop();
+                        Console.WriteLine(watch.ElapsedMilliseconds.ToString() + " ms");
                     }
                     else if (option == "2")
                     {
-                        Hough_Thread.start();
+                        var watch = System.Diagnostics.Stopwatch.StartNew();
+                        Hough_Thread h = new Hough_Thread(image);
+                        h.draw();
+                        watch.Stop();
+                        Console.WriteLine(watch.ElapsedMilliseconds.ToString()+" ms");
 
                     }
                 }

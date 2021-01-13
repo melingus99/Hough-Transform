@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "uVdaabXlZxMbflaux1Jecb412iHgf5pXr49oXSTRD8zxXjwnB1t4aFfbJWbgJeNuzbZFuamZCIjYIlsqiRNsuw==",
+  "dgSpecHash": "o+sJSD0mrh1FYG3vPuuYuaoS1DaD0NTZKUlTdZbQ2yKkGaaqMxSI/5j3UnyBj6ChWTbMubxZYyHx74TMBaVEZQ==",
   "success": true,
-  "projectFilePath": "D:\\facultate\\dpp\\Hough-Transform\\Hough-Transform\\Hough-Transform.csproj",
+  "projectFilePath": "C:\\Users\\Bubu\\Hough-Transform\\Hough-Transform\\Hough-Transform.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tigru\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
-    "C:\\Users\\tigru\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
-    "C:\\Users\\tigru\\.nuget\\packages\\mpi.net\\1.3.0\\mpi.net.1.3.0.nupkg.sha512",
-    "C:\\Users\\tigru\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512"
+    "C:\\Users\\Bubu\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Bubu\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Bubu\\.nuget\\packages\\mpi.net\\1.3.0\\mpi.net.1.3.0.nupkg.sha512",
+    "C:\\Users\\Bubu\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512"
   ],
   "logs": [
     {

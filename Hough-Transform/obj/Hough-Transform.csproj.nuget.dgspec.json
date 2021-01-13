@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\facultate\\dpp\\Hough-Transform\\Hough-Transform\\Hough-Transform.csproj": {}
+    "C:\\Users\\Bubu\\Hough-Transform\\Hough-Transform\\Hough-Transform.csproj": {}
   },
   "projects": {
-    "D:\\facultate\\dpp\\Hough-Transform\\Hough-Transform\\Hough-Transform.csproj": {
+    "C:\\Users\\Bubu\\Hough-Transform\\Hough-Transform\\Hough-Transform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\facultate\\dpp\\Hough-Transform\\Hough-Transform\\Hough-Transform.csproj",
+        "projectUniqueName": "C:\\Users\\Bubu\\Hough-Transform\\Hough-Transform\\Hough-Transform.csproj",
         "projectName": "Hough-Transform",
-        "projectPath": "D:\\facultate\\dpp\\Hough-Transform\\Hough-Transform\\Hough-Transform.csproj",
-        "packagesPath": "C:\\Users\\tigru\\.nuget\\packages\\",
-        "outputPath": "D:\\facultate\\dpp\\Hough-Transform\\Hough-Transform\\obj\\",
+        "projectPath": "C:\\Users\\Bubu\\Hough-Transform\\Hough-Transform\\Hough-Transform.csproj",
+        "packagesPath": "C:\\Users\\Bubu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bubu\\Hough-Transform\\Hough-Transform\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tigru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bubu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
